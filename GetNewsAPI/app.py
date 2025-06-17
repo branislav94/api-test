@@ -20,7 +20,7 @@ def get_stored_news():
     cursor.close()
     conn.close()
     return jsonify(rows)
-
+# Bane da ga duva
 if __name__ == '__main__':
     start_scheduler()
-    app.run(debug=True, host="0.0.0.0", port=5001)
+    app.run(debug=True, host="0.0.0.0", port=500)
